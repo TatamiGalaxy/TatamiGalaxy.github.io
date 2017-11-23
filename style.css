@@ -1,0 +1,89 @@
+::selection {
+  color: #044501;
+  background: #65D6B1;
+}
+::-moz-selection {
+  color: #044501;
+  background: #65D6B1;
+}
+
+a {
+  color: #3000FF;
+  cursor: pointer;
+}
+
+a:hover { 
+  text-decoration: none;
+}
+
+body {
+  background-color: #B5D1B1;
+  color: black;
+  font-family: "Arimo", "Liberation Sans", "Nimbus Sans L", "FreeSans", Arial, Helvetica, sans-serif;
+}
+
+img {
+    image-rendering: -moz-crisp-edges; /*Firefox*/
+    image-rendering: -o-crisp-edges; /*Opera*/
+    image-rendering: -webkit-optimize-contrast; /*Chrome & Safari*/
+    image-rendering: pixelated; /*Chrome*/
+    image-rendering: optimize-contrast; /*CSS3 Proposed*/
+    -ms-interpolation-mode: nearest-neighbor; /*IE8+*/
+    /*code blatantly ripped from https://archive.is/ccmz7*/
+}
+
+/*title, subtitle, header, generalheader, section (body text), bigfooter, footer, links, spacer, magics*/
+
+#t {
+  font-size: 70px;
+  text-align: center;
+}
+
+#st {
+  font-size: 45px;
+  text-align: center;
+  margin-top: -20px;
+}
+
+#h {
+  font-size: 30px;
+  text-align: center;
+}
+
+#g {
+  font-size: 28px;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+#s {
+  font-size: 22px;
+  margin-left: 8%;
+  margin-right: 8%;
+  text-indent: 50px;
+}
+
+#bf {
+  font-size: 32px;
+  text-align: center;
+}
+
+#f {
+  font-size: 14px;
+  text-align: center;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+#l {
+  text-align: center;
+}
+
+#sp {
+  margin: 10px;
+}
+
+#magic {
+  cursor: default;
+  color: #B5D1B1;
+}
