@@ -1,8 +1,7 @@
 body {
     margin: 60px auto;
-    background-color: black;
+    background: black;
     width: 70%;
-    font-color: white;
     font-family: 'Roboto', sans-serif;
 }
 nav ul, footer ul {
